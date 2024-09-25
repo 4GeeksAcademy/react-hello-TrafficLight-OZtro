@@ -1,12 +1,44 @@
+main {
+    height: 100vh;
+}
 
-/* 
+.support {
+    background-color: black;
+    width: 1rem;
+    height: 10rem;
+    margin: 0px auto;
+    
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.boxTraffic {
+    background-color: black;
+    border-radius: 2em;
+    width: 10rem;
+    height: 30rem;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
-*/
+.boxTraffic div{
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+    margin: 0.5em;
+}
+
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+
+.light-on {
+    box-shadow:  0px 0px 55px 8px rgba(143,143,143,1);;
+}
